@@ -1,8 +1,8 @@
 class BibleCli < Formula
   desc "Fast, playful Bible CLI built in Rust"
   homepage "https://github.com/migkapa/bible-cli"
-  url "https://github.com/migkapa/bible-cli/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "f1485de2a03e4f49d65038ebfdbe49532b919fac4abc307411eac7ec9511b1f7"
+  url "https://github.com/migkapa/bible-cli/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "c097284d4921c70fcd71b7ff8ca88afc01457f31cb5005f71b77bae382de89ff"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on "rust" => :build
